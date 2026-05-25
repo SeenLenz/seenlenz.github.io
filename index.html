@@ -8,30 +8,62 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
         body { font-family: 'Montserrat', sans-serif; }
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-15px); }
+        }
+        .animate-float-1 { animation: float 6s ease-in-out infinite; }
+        .animate-float-2 { animation: float 7s ease-in-out infinite 1s; }
+        .animate-float-3 { animation: float 8s ease-in-out infinite 2.5s; }
     </style>
 </head>
 <body class="bg-white text-gray-900 antialiased flex flex-col min-h-screen">
 
     <div id="header-placeholder"></div>
 
-    <section class="py-24 bg-gray-50 border-b border-gray-100 min-h-[calc(100vh-5rem)] flex flex-col justify-center">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h1 class="text-4xl md:text-6xl font-extrabold text-black uppercase tracking-tight mb-4">
-                Labdanyomás-<br class="hidden md:inline"/>megőrző rendszerek
-            </h1>
-            <p class="text-xl md:text-2xl text-gray-700 font-semibold mb-2">
-                Padelhez és teniszhez – játékosoknak, edzőknek és kluboknak.
-            </p>
-            <p class="text-sm text-gray-500 font-bold uppercase tracking-widest mb-8">
-                Magyarországi forgalmazó: A.P.P. Kft.
-            </p>
-            <div class="w-20 h-1 bg-yellow-400 mx-auto mb-8 rounded-full"></div>
-            <p class="max-w-3xl mx-auto text-gray-600 text-lg leading-relaxed mb-12">
-                A Pascal Box segít megőrizni a padel- és teniszlabdák megfelelő nyomását, így hosszabb ideig biztosít jó játékélményt, kevesebb labdaveszteséget és fenntarthatóbb sportolást. A magas precizitású rendszereink megvédik a labdaápolást és garantálják a gyári nyomásszintet.
-            </p>
-            <div class="flex flex-col sm:flex-row justify-center gap-4">
-                <a href="termekek.html" class="bg-black text-white font-bold px-8 py-4 rounded hover:bg-gray-800 transition duration-300 uppercase tracking-wide text-sm">Termékek megtekintése</a>
-                <a href="#kapcsolat" class="bg-yellow-400 text-black font-bold px-8 py-4 rounded hover:bg-yellow-300 transition duration-300 uppercase tracking-wide text-sm">Ajánlat kérése klubként</a>
+    <section class="py-24 bg-gray-50 border-b border-gray-100 min-h-[calc(100vh-5rem)] flex flex-col justify-center overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div class="text-center lg:text-left relative z-10">
+                    <h1 class="text-4xl md:text-6xl font-extrabold text-black uppercase tracking-tight mb-4">
+                        Labdanyomás-<br class="hidden md:inline"/>megőrző rendszerek
+                    </h1>
+                    <p class="text-xl md:text-2xl text-gray-700 font-semibold mb-2">
+                        Padelhez és teniszhez – játékosoknak, edzőknek és kluboknak.
+                    </p>
+                    <p class="text-sm text-gray-500 font-bold uppercase tracking-widest mb-8">
+                        Magyarországi forgalmazó: A.P.P. Kft.
+                    </p>
+                    <div class="w-20 h-1 bg-yellow-400 mx-auto lg:mx-0 mb-8 rounded-full"></div>
+                    <p class="text-gray-600 text-lg leading-relaxed mb-12">
+                        A Pascal Box segít megőrizni a padel- és teniszlabdák megfelelő nyomását, így hosszabb ideig biztosít jó játékélményt, kevesebb labdaveszteséget és fenntarthatóbb sportolást. A magas precizitású rendszereink megvédik a labdaápolást és garantálják a gyári nyomásszintet.
+                    </p>
+                    <div class="flex flex-col sm:flex-row justify-center lg:justify-start gap-4">
+                        <a href="termekek.html" class="bg-black text-white font-bold px-8 py-4 rounded hover:bg-gray-800 transition duration-300 uppercase tracking-wide text-sm">Termékek megtekintése</a>
+                        <a href="#kapcsolat" class="bg-yellow-400 text-black font-bold px-8 py-4 rounded hover:bg-yellow-300 transition duration-300 uppercase tracking-wide text-sm">Ajánlat kérése klubként</a>
+                    </div>
+                </div>
+                
+                <!-- Floating Gallery -->
+                <div class="relative h-[400px] md:h-[500px] hidden sm:block">
+                    <!-- Background decorative blob -->
+                    <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-72 h-72 bg-yellow-400/20 rounded-full blur-3xl pointer-events-none"></div>
+                    
+                    <!-- Image 1 -->
+                    <div class="absolute top-[5%] right-[10%] w-48 md:w-56 animate-float-1">
+                        <img src="img/Vaso-Pascalbox-3b-nuevo.png" alt="Pascal Box 3B" class="w-full h-auto object-contain bg-white rounded-lg border-4 border-white shadow-xl">
+                    </div>
+                    
+                    <!-- Image 2 -->
+                    <div class="absolute top-[35%] left-[5%] w-56 md:w-64 z-10 animate-float-2">
+                        <img src="img/producto-switch-1.jpg" alt="Pascal Box Switch" class="w-full h-auto object-contain bg-white rounded-lg border-4 border-white shadow-2xl">
+                    </div>
+                    
+                    <!-- Image 3 -->
+                    <div class="absolute bottom-[5%] right-[20%] w-48 md:w-56 animate-float-3">
+                        <img src="img/pro-2-1.jpg" alt="Pascal Box PRO" class="w-full h-auto object-contain bg-white rounded-lg border-4 border-white shadow-lg">
+                    </div>
+                </div>
             </div>
         </div>
     </section>
