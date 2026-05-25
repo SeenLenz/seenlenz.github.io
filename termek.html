@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="hu" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Termék Részletei | Pascal Box Magyarország</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+        body { font-family: 'Montserrat', sans-serif; }
+    </style>
+</head>
+<body class="bg-white text-gray-900 antialiased flex flex-col min-h-screen">
+
+    <div id="header-placeholder"></div>
+
+    <section class="py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full flex-grow">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            
+            <div class="bg-gray-50 border border-gray-100 rounded-xl p-12 flex items-center justify-center min-h-[400px]">
+                <img id="dyn-image" src="" alt="Termék Kép" class="max-h-96 object-contain drop-shadow-md">
+            </div>
+
+            <div class="flex flex-col">
+                <span id="dyn-category" class="text-xs font-bold uppercase tracking-widest text-yellow-500 mb-2">Betöltés...</span>
+                <h1 id="dyn-name" class="text-3xl md:text-4xl font-extrabold text-black mb-6 uppercase tracking-tight">Betöltés...</h1>
+                
+                <div class="text-gray-600 leading-relaxed space-y-4 mb-8">
+                    <p id="dyn-description">A termék adatainak betöltése folyamatban van...</p>
+                    
+                    <h4 class="font-bold text-black uppercase tracking-wider text-xs pt-4">Technikai jellemzők:</h4>
+                    <ul id="dyn-features" class="list-disc pl-5 space-y-1 text-sm font-semibold text-gray-800">
+                        </ul>
+                </div>
+
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <a id="dyn-contact" href="index.html#kapcsolat" class="text-center bg-black text-white font-bold px-8 py-4 rounded hover:bg-gray-800 transition uppercase tracking-wide text-xs">Ajánlatot kérek</a>
+                    
+                    <a id="dyn-manual" href="#" target="_blank" class="text-center border-2 border-black text-black font-bold px-8 py-4 rounded hover:bg-gray-50 transition flex items-center justify-center gap-2 uppercase tracking-wide text-xs">
+                        <span>📄</span> Letölthető útmutató
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="js/main.js"></script>
+    <script src="js/product.js"></script>
+</body>
+</html>

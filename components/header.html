@@ -1,0 +1,44 @@
+<header class="bg-black text-white sticky top-0 z-50 shadow-md">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-20">
+            <div class="flex-shrink-0">
+                <a href="index.html" class="flex items-center gap-3">
+                    <img src="img/logo-pascalbox-blanco.png" alt="Pascal Box Logo" class="h-10 w-auto object-contain">
+                </a>
+            </div>
+            <nav class="hidden md:flex space-x-10">
+                <a href="index.html" class="hover:text-yellow-400 font-semibold transition duration-300">Főoldal</a>
+                <a href="termekek.html" class="hover:text-yellow-400 font-semibold transition duration-300">Termékek</a>
+                <a href="index.html#kluboknak" class="hover:text-yellow-400 font-semibold transition duration-300">Kluboknak</a>
+            </nav>
+            <div class="hidden md:block">
+                <a href="#kapcsolat" class="bg-yellow-400 text-black px-6 py-2.5 rounded-lg font-bold hover:bg-yellow-300 transition duration-300 uppercase text-xs tracking-wider shadow-[0_0_15px_rgba(250,204,21,0.2)] hover:shadow-[0_0_25px_rgba(250,204,21,0.4)] flex items-center justify-center gap-2">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"></path></svg>
+                    Kapcsolat
+                </a>
+            </div>
+
+            <!-- Mobile menu button -->
+            <div class="md:hidden flex items-center">
+                <button id="mobile-menu-btn" class="text-white hover:text-yellow-400 focus:outline-none transition-colors">
+                    <svg class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden md:hidden bg-black border-t border-gray-800 shadow-xl pb-4">
+        <div class="px-4 pt-4 pb-2 space-y-2">
+            <a href="index.html" class="block px-3 py-3 rounded-md text-base font-medium text-white hover:text-yellow-400 hover:bg-gray-900 transition">Főoldal</a>
+            <a href="termekek.html" class="block px-3 py-3 rounded-md text-base font-medium text-white hover:text-yellow-400 hover:bg-gray-900 transition">Termékek</a>
+            <a href="index.html#kluboknak" class="block px-3 py-3 rounded-md text-base font-medium text-white hover:text-yellow-400 hover:bg-gray-900 transition">Kluboknak</a>
+            <a href="#kapcsolat" class="block px-3 py-3 mt-4 text-center rounded-lg text-base font-bold bg-yellow-400 text-black hover:bg-yellow-300 uppercase tracking-wide shadow-[0_0_15px_rgba(250,204,21,0.2)] hover:shadow-[0_0_25px_rgba(250,204,21,0.4)] transition duration-300 flex justify-center items-center gap-2">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"></path></svg>
+                Kapcsolat
+            </a>
+        </div>
+    </div>
+</header>

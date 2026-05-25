@@ -1,0 +1,99 @@
+szeretnem hogy lemasold a pascablox.com weboldalt.
+Ez az oldal GitHub pages en less hosztolva tehat lehet tobb html vagy javascript illetve css file strukura szemopojtabol de backendet nem akarok hostolni hozza egyenlore.
+Az oldal szine legyen feher, de a footer es a header legyen fekete.
+Contrast nak es szinnek a sarga feleljen.
+Lenyeg a letisztulsag es konnyen navigalhatosag.
+lkegyen feltutlve hogy a magyarorszagi forgalmazoja az P.P.P Kft
+Ne vezessenek automatikusan a spanyol Pascal Box csatornákra, mert a magyar látogató magyar kapcsolattartást vár.
+A design kövesse a Pascal Box hivatalos arculatát:
+
+  *   sárga / fekete / sportos kontraszt
+  *   modern, tiszta, technikai hangulat
+  *   padelhez és teniszhez illő képi világ
+  *   mobilon is jól működjön
+A magyar oldal ne legyen túlzsúfolt. Inkább legyen egyszerű, gyors és érthető.
+ne legyenek kint social ikonok,
+
+## FONTOS
+Adok neked egy listat a kepek neveivel es hogy milyen mappabaan vannak a az index.html a root mappaban less cask ugy mint minden masik sub page es a img mapppaban lesznek a kepek amikor kep kell valahova a listabol valazd ki a leg valosziubbbet es hasznalad azt fontos hogy legyen ott valami en majd kesobb javitom
+
+1. Header
+
+logo ez legyena bal oldalt kint 
+tobbi kozepen:
+Fo oldal
+Termekek
+Klubboknak
+kapcsolat ez legyen a job oldalt kint mit sarga gomb
+
+2. Fo uzenet a nyitolapon
+Header: Labdanyomás-
+megőrző rendszerek
+
+leiras: Padelhez és teniszhez – játékosoknak, edzőknek és kluboknak.
+Magyarországi forgalmazó: A
+
+gomb: termekek megkteintese
+gomb: ajanlat kerese klubbkent
+
+utana legyen egy szekcio a elonyokrol stb
+
+utana egy szekcio hogy ah ilyen termekeiknk vannak cask roviden es egy gomba termekek oldal ugrasra itt legyen ugy felbontva hogy termekek szekcio es ebben legyenek azok a termekek amelyek nem tartoznak a kovi sub sectionokhoz
+termekek: Salki kompresszor, NUAIR kompresszor ( bar orulnek ha nem lenne kulon termekek hanem cask edzoknek es jatekosoknak resz lenne es a kompresszorokat meg valahogy mashogy illesztenenk be a strukutraba ha erre van otleted csinald iggy)
+egyik sub section> jatekosoknak, tartalma: 3B, 4B, Switch. termekek
+kis leiras hogy miert jo a jatekosok sectionnek nekik
+masik sub section> edzoknek: PRO / 75B, troli, kompresszorok, később labdamenedzsment rendszer.
+
+ide egy kis leiras is kell majd a termekeknel a edzoknek / klubboknak resznel hogy miert jo a klubbk rol nekik miert jo nagy labdaforgalomnal penz sporolas es par megjegyzes egy gomba termekekre es egy gomb a klubbknak oldalra
+
+es vegul a kapcsolat section
+ Kapcsolat
+A kapcsolattartó Szilvi legyen.
+Kérlek, ezt tüntesd fel:
+Kapcsolattartó: Gábor Szilvia
+Telefon: +36 30 476 5833
+E-mail: szilvia.gabor@pascalbox.hu
+Cég: A.P.P. Kft.
+Az e-mail címet még létre kell hozni. Ezt kérjük majd a rendszergazdától. Kifelé ez legyen a hivatalos kapcsolattartói cím, ne Gmail.
+
+3. termekek oldal
+
+a temrkek legyenek felsorolva szep letisztultal nem kell nagy hero kep a tetore hanem tetisztult heading es akkor szepen sub headerekkel kartyak a tulajdnosagokkal rovid kis leairsal a termekek kategorizalva
+
+elso kategoria:
+
+Magánjátékosoknak / amateur kategória
+Pascal Box 3B
+Ez 3 padel- vagy teniszlabda tárolására való. A hivatalos oldal szerint a 3B kapacitása 3 padel- és teniszlabda, illetve 4 frontenis labda, precíz nyomásmérővel, erős üvegszálas tetővel és policarbonát tartállyal.
+Pascal Box 4B
+Ez 4 padel- vagy teniszlabda tárolására való. A hivatalos oldal szerint a 4B tenisz-, padel- és frontenis labdákhoz használható, 4 labdás kapacitással, precíz nyomásmérővel, erős tetővel, policarbonát tartállyal és könnyen nyitható rendszerrel.
+Pascal Box Switch
+Ez az automata / kényelmi modell. A hivatalos oldal szerint beépített akkumulátoros kompresszorral működik, USB-C töltőkábellel, precíz nyomásmérővel, és kompatibilis a korábbi Pascal Box 3B és 4B verziókkal is.
+
+masodik kategoria
+
+Ezt kluboknak, edzőknek és professzionális használatra kell kommunikálni. A hivatalos oldal szerint a PRO professzionális labdanyomás-megőrző rendszer padel- és teniszlabdákhoz, akár 75 labdás kapacitással, rozsdamentes acél kivitelben, precíz nyomásmérővel és patentált zárórendszerrel.
+Pascal Box PRO troli
+Ez a 75B / PRO kiegészítője. A hivatalos oldal szerint kifejezetten a Pascal Box PRO-hoz készült, edzésekhez és órákhoz ideális, mert nem kell a labdákat külön kosárba átpakolni.
+Salki kompresszor
+Ez az egyszerűbb kompresszor. A hivatalos oldal szerint elektromos kompresszor, amelyet a Pascal Box PRO feltöltéséhez ajánlanak, 150 PSI kapacitással, 220-230 V és DC 12 V csatlakozással, 20 L/perc légáramlással. A leírás külön jelzi, hogy ez nem Pascal Box gyártmány, hanem SALKI gyártói garanciával rendelkezik.
+NUAIR / Silent kompresszor
+Ez a gyorsabb és halkabb professzionális kompresszor. A hivatalos oldal szerint a Pascal Box PRO és PRO XL feltöltéséhez ajánlott, nagyobb légáramlással, nagyon alacsony, 20 dB alatti zajszinttel. A PRO feltöltési ideje kb. 40 másodperc, a PRO XL-é kb. 2 perc.
+
+mindegyik termeknek legyen meg a sajat oldala, ha ranyom az ember itt legyen hosszab leiras, a termek kepek utmutathozok gomb amibe a linket majd en bekotom, ajanlatot kerek gomb ami le scrollok a kapcsolat sectin hoz a kapcsolat section amugy majdnem hogy lehet a footer resze.
+
+FONTOS FONTOS FONTOS: minden termekhez tartozik egy oldal, csak a templatet csinald meg hogy oldal template es en a kepeket meg az irasokat majd bele rakom dokumentacio meg ajanlat keresgomb illetve a kapcsolat szekcio legyen ott az fontos
+
+
+fontos hogy a product kartyak stilusai azonosak legyenek az oldalakon ativeloen
+
+
+tovabbi infok> 
+A főoldal tetején valami ilyesmi szerepeljen:
+Pascal Box Magyarország
+Labdanyomás-megőrző rendszerek padelhez és teniszhez - játékosoknak, edzőknek és kluboknak.
+Rövid bevezető szöveg:
+A Pascal Box segít megőrizni a padel- és teniszlabdák megfelelő nyomását, így hosszabb ideig biztosít jó játékélményt, kevesebb labdaveszteséget és fenntarthatóbb sportolást.
+A hivatalos oldalon is ez a fő logika: magas precizitású labdanyomás-megőrző és labdaápolási rendszerek padelhez és teniszhez.
+
+
