@@ -2,7 +2,7 @@ const productDatabase = {
     "3b": {
         name: "Pascal Box 3B",
         category: "Magánjátékosoknak / Amateur kategória",
-        image: "img/Vaso-Pascalbox-3b-nuevo.png",
+        image: "img/producto-switch-1.jpg",
         description: "Az egyetlen labdanyomás-megőrző rendszer, amely napról napra, meccsről meccsre garantálja a labdák eredeti gyári nyomását. Spórolj a labdákon és kerüld el a sérüléseket!",
         features: [
             "Kapacitás: 3 padel- vagy teniszlabda (illetve 4 frontenis labda)",
